@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/CoinRate" version="1.0.0" viewmodes="maximized">
+    <access origin="*" subdomains="true"/>
+    
+    <access origin="*.tradingview.com"  subdomains="true"/>
+
+    <tizen:application id="zpqpftFCU8.CoinRate" package="zpqpftFCU8" required_version="3.0"/>
+    <author email="faith.software@gmail.com">Faith Software</author>
+    <content src="index.html"/>
+    <description>CoinRate todo</description>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>CoinRate</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/power"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
+</widget>
